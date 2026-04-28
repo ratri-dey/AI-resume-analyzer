@@ -1,57 +1,49 @@
-#📦 AI Resume Analyzer (GenAI Project)
+# 🧠 AI Resume Analyzer (GenAI Project)
 
-An AI-powered resume screening system that compares resumes with job descriptions using NLP, Machine Learning, and Generative AI. It provides ATS-style scoring, skill gap analysis, and AI-driven improvement suggestions through an interactive web app.
+An AI-powered resume screening system that compares resumes with job descriptions using NLP, Machine Learning, and Generative AI. It provides ATS-style scoring, skill gap analysis, and AI-driven feedback through an interactive web app.
 
-#📌 Key Features:
+---
 
-✅ Resume vs Job Description matching using Sentence-BERT embeddings
-📈 ATS Score generation using cosine similarity
-🤖 AI-powered feedback using Groq LLM (Llama-3)
-🧠 Skill gap detection (missing vs required skills)
-💬 Chat assistant for resume improvement guidance
-📄 PDF upload and real-time analysis via Streamlit UI
+## 📌 Key Features
 
-#🛠️ Tools Used:
+✔ Resume vs Job Description matching using Sentence-BERT  
+✔ ATS Score generation using cosine similarity  
+✔ AI feedback using Groq LLM (Llama-3)  
+✔ Skill gap detection (missing vs required skills)  
+✔ Chat assistant for resume improvement  
+✔ PDF upload + real-time analysis (Streamlit UI)
 
-Python (Core logic & backend)
-Streamlit (Web application UI)
-SentenceTransformers (Semantic similarity)
-Scikit-learn (Cosine similarity)
-Groq API (LLM - Llama 3)
-PDFMiner (Resume text extraction)
-Regex (Text processing)
+---
 
-#🧠 Insights Delivered:
+## 🛠️ Tools & Technologies
 
-ATS compatibility score for resume screening
-Skill mismatch identification between resume and job description
-AI-generated suggestions to improve resume quality
-Personalized feedback through chat-based assistant
-Highlighted areas of improvement for better job matching
+Python | Streamlit | SentenceTransformers | Scikit-learn | Groq API | PDFMiner | Regex
 
-#📂 Project Workflow:
+---
 
-Upload Resume (PDF format)
-Enter Job Description
-Extract and process resume text
-Generate ATS similarity score
-Analyze skills gap and AI feedback
-Chat with AI for resume improvement suggestions
-Download final report
+## 🧠 Key Insights
 
-#🚀 How to Run:
+- ATS compatibility score for resume screening  
+- Skill mismatch detection between resume & job description  
+- AI-generated improvement suggestions  
+- Personalized resume feedback through chat assistant  
 
+---
+
+## 📂 Workflow
+
+1. Upload Resume (PDF)  
+2. Enter Job Description  
+3. Extract text from resume  
+4. Generate ATS similarity score  
+5. AI analysis + skill gap detection  
+6. Chat with AI for improvements  
+7. Download final report  
+
+---
+
+## 🚀 How to Run
+
+```bash
 pip install -r requirements.txt
 streamlit run app.py
-
-#🔑 Environment Variables:
-
-Create a .env file and add:
-GROQ_API_KEY=your_api_key_here
-
-#👨‍💻 Future Enhancements:
-
-Resume ranking system for multiple candidates
-AI-based resume rewriting tool
-Job recommendation engine
-PDF formatted AI feedback report
